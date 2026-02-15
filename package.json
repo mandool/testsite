@@ -3,6 +3,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
@@ -15,5 +17,10 @@
     "react-dom": "^19.2.4",
     "three": "^0.182.0",
     "vite": "^7.3.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
+  "homepage": "https://https://mandool.github.io/testsite/"
 }
+
