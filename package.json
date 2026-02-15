@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+"dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview", 
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"  
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
   "homepage": "https://https://mandool.github.io/testsite/"
 }
 
